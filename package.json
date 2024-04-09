@@ -1,21 +1,33 @@
 {
-  "engines":{
-      "node":"18.17.0"
-  },
-  "name": "11-rest_class",
+  "name": "quora-mini-clone",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "Abhinandan Sah",
   "license": "ISC",
+  "engines": {
+    "node": "18.17.0"
+  },
   "dependencies": {
     "ejs": "^3.1.9",
     "express": "^4.18.2",
     "method-override": "^3.0.0",
     "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "sonarcloud-scrutinizer": "^2.3.0"
+  },
+  "bugs": {
+    "url": "https://github.com/your-username/quora-mini-clone/issues"
+  },
+  "homepage": "https://github.com/your-username/quora-mini-clone#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/your-username/quora-mini-clone.git"
   }
 }
